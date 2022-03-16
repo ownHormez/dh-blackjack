@@ -1,4 +1,3 @@
-import { Deck } from '../Game/Deck';
 import { DeckGenerator } from '../Game/DeckGenerator';
 
 describe('Deck Generator', () => {

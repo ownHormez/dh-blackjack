@@ -21,11 +21,11 @@ export class DeckShuffler {
             cards.push(deck.cards[x + half]);
         }
 
-        // handle edge case for decks with odd number of cards
         if (total % 2) {
+            // edge case, decks with odd number of cards
             cards.push(deck.cards[total-1]);
         }
       
         return new Deck(cards);
-      }
+    }
 }

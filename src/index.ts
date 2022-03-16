@@ -1,10 +1,13 @@
-import { DeckShuffler } from "./Game/DeckShuffler";
+import { Card } from "./Game/Card";
+import { CardCalculator } from "./Game/CardCalculator";
+import { Deck } from "./Game/Deck";
 import { DeckGenerator } from "./Game/DeckGenerator";
+import { DeckShuffler } from "./Game/DeckShuffler";
 
-export const Greeter = (name: string) => `Hello ${name}`;
-
-export const shuffler = new DeckShuffler();
-
-export const generator = new DeckGenerator();
-
-generator.generate();
+export {
+    Card,
+    CardCalculator,
+    Deck,
+    DeckShuffler,
+    DeckGenerator,
+};
